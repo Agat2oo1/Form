@@ -1,0 +1,59 @@
+.container{
+    width: 60%;
+    margin: auto;
+}
+h2{
+    color: aquamarine;
+}
+form{
+    border: 2px solid aquamarine;
+    padding: 0 20px 20px 20px;
+    margin:10px;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    font-family: Constantia;
+}
+h2{
+    font-family: Constantia;
+}
+input{
+    display: block;
+    width: 99%;
+    margin: 0 0 20px 0;
+}
+fieldset{
+    padding-top: 20px;
+    margin: 0 0 20px 0;
+    border-color: aquamarine;
+    border-style: solid;
+}
+legend{
+    font-style: italic;
+    font-family: Constantia;
+    font-size: 19px;
+}
+
+.prevButton{
+    float:left;
+    background-color: white;
+    border-color: aquamarine;
+    width: 70px;
+}
+.nextButton{
+    float: right;
+    background-color: white;
+    border-color: aquamarine;
+    width: 70px;
+}
+.checkInput{
+    display: inline-block;
+    width:20px
+}
+.summaryLabel{
+    font-weight: bold;
+}
+.errorMessage{
+    color: darkred;
+}
